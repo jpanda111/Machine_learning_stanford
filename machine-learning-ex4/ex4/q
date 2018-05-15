@@ -1,0 +1,22 @@
+'randperm' is a built-in function from the file libinterp/corefcn/rand.cc
+
+ -- randperm (N)
+ -- randperm (N, M)
+     Return a row vector containing a random permutation of '1:N'.
+
+     If M is supplied, return M unique entries, sampled without
+     replacement from '1:N'.
+
+     The complexity is O(N) in memory and O(M) in time, unless M < N/5,
+     in which case O(M) memory is used as well.  The randomization is
+     performed using rand().  All permutations are equally likely.
+
+     See also: perms.
+
+Additional help for built-in functions and operators is
+available in the online version of the manual.  Use the command
+'doc <topic>' to search the manual index.
+
+Help and information about Octave is also available on the WWW
+at http://www.octave.org and via the help@octave.org
+mailing list.
